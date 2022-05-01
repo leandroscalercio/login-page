@@ -1,0 +1,112 @@
+body,
+a,
+p,
+h1,
+div,
+section,
+label,
+footer {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+body {
+  background: #f7fafc;
+}
+a:visited {
+  color: #000;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+}
+
+.login-tela img {
+  width: 600px;
+}
+
+.login-dados {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.login-dados input {
+  display: block;
+
+  padding: 5px;
+}
+
+.login-dados h1{
+  margin-bottom: 40px;
+}
+
+.form > input{
+  width: 100%;
+ margin-bottom: 30px;
+}
+
+.check{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.check-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.buttons .entrar{
+  text-align: center;
+  width: 100%;
+  background: #92E3A9;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+
+.buttons .google{
+  display: flex;
+  color: #FFF;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  background: #000;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+#footer {
+  color: blue;
+  margin-left: 10px;
+}
+
+@media (max-width: 748px) {
+
+  .login-tela{
+    display: none;
+  }
+  .login-dados{
+    margin: 0px;
+    padding: 0px;
+  }
+}
